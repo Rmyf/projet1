@@ -1,0 +1,52 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding-bottom: 0;
+    font-size:30px;
+}
+
+#menuhead li {
+    display: inline;
+    color: #0086BF;
+    font:bold
+}
+.menuhigh {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}
+.homeblock{
+    display: flex;
+   
+}
+.imgblock{
+    width: 100%;
+}
+.propo{
+    
+    box-sizing: border-box;
+    padding: 8px 32px 8px 18px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 1.25;
+    border-radius: 15px;
+    background-color: #005293;
+    color: white;
+
+}
+.homeblock2 {
+    background-color: #f2f2f2 ;
+
+}
+
+.txtroad{
+    display: flex;
+    
+}
