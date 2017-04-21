@@ -74,14 +74,26 @@ button{
 
 .homeblock2 {
     background-color: #f2f2f2 ;
+    display: flex;
+    justify-content: center;
 
 }
 
 .txtroad{
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-left: 52px;
     
 }
 input{
     height: 48px;
     line-height: 18px;
     margin-right: 8px;
+}
+
+.propo2{
+    height: 40px;
+
+}
