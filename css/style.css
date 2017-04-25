@@ -1,50 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .imghead{    
-    display: inline-block;
+    display: flex;
     width: 126px;
     height: 21px;
-    vertical-align: middle;
+
+    
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0;
 }
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0; 
     padding-bottom: 0;
-    font-size:30px;
+    font-size:36px;
+    padding-top: 20px;
+    margin-left: 10px;
 }
 
-#menuhead li {
+#menuhead li{
     display: inline;
     color: #0086BF;
-    font:bold
-}
+    font-weight: bold;
+    padding-right: 20px;
+    }
+
 .menuhigh {
-    display: flex;
-    justify-content: flex-end;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.menuhigh2{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.menuhigh img{
     
+    align-self: flex-start;
+    margin-bottom: -30px;
+    padding-left: 32px;
+    padding-top: 20px;
+    
+}
 
-
+.menuhead {
+    display: flex;
+    list-style: none;
 }
 .homeblock{
     display: flex;
+    padding-top: 10px;
    
 }
 .imgblock{
     width: 100%;
+    
 }
+
+.img3{
+background-image: url("/images/homeblock_main_desktop_fr_FR_v01.jpg");
+width: 100%;
+height: 350px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position-y: -30px;
+}
+
 .propo{
     
     box-sizing: border-box;
     padding: 8px 32px 8px 18px;
     height: 36px;
     font-size: 16px;
-    line-height: 1.25;
     border-radius: 15px;
-    background-color: #005293;
+    background-color: #0086BF;
     color: white;
 
 }
@@ -54,9 +91,8 @@ h1{
     padding: 8px 32px 8px 18px;
     height: 36px;
     font-size: 16px;
-    line-height: 1.25;
     border-radius: 15px;
-    background-color: #005293;
+    background-color: #0086BF;
     color: white;
 }
 
@@ -88,12 +124,18 @@ button{
     
 }
 input{
-    height: 48px;
-    line-height: 18px;
+    height: 38px;
+    line-height: 10px;
     margin-right: 8px;
+    
+    
 }
 
 .propo2{
     height: 40px;
 
 }
+.car{
+    height: 78px;
+}
+
