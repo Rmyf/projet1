@@ -14,6 +14,7 @@ body{
 p {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0;
+    padding-left: 10px;
 }
 
 h1{
@@ -22,6 +23,10 @@ h1{
     padding-bottom: 0;
     font-size:36px;
     padding-top: 20px;
+    margin-left: 10px;
+}
+
+h2{
     margin-left: 10px;
 }
 
@@ -80,7 +85,7 @@ button{
 
     box-sizing: border-box;
     padding: 8px 32px 8px 18px;
-    height: 36px;
+    height: 38px;
     font-size: 16px;
     border-radius: 15px;
     background-color: #0086BF;
@@ -96,12 +101,18 @@ button{
 .homeblock2 {
     background-color: #f2f2f2 ;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 
 }
 .homeblock2 img{
     display: block;
     block-size: 360px;
+    width: 544px;
+    height: 340px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -150px;
+    border-radius: 4px;
 
 }
 
@@ -118,6 +129,7 @@ button{
     height: 44px;
     line-height: 10px;
     margin-right: 8px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
 }
@@ -133,6 +145,15 @@ input {
 }
 .car{
     height: 78px;
+}
+
+.trajet{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #F9F9F9;
+    display:flex;
+    justify-content:center;
+    margin-left: -320px;
+
 }
 
 
