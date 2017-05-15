@@ -8,6 +8,8 @@
     <title>Voyagez moins cher en covoiturage</title>
     <link rel="icon" type="image/png" href="images/index.png" sizes="16x16">
     <link rel="stylesheet" href="css/style.css">
+    <link type="text/css" href="csshake.css">
+
 </head>
 
 <body>
@@ -15,9 +17,11 @@
 
         <nav>
             <section class="menuhigh">
-                <img class="imghead" src="images/BlaBlaCar.svg" alt="BlaBlaCar">
+                <div class="shake">
+                    <img class="imghead" src="images/BlaBlaCar.svg" alt="BlaBlaCar">
+                </div>
                 <section class="menuhigh2">
-                    <button class="propo" type="button">Proposer un trajet</button>
+                    <a class="propolink" href="https://www.blablacar.fr/proposer/1">Proposer un trajet</a>
                     <ul id="menuhead">
                         <li>Inscription</li>
                         <li>Connexion</li>
@@ -35,8 +39,8 @@
         </div>
     </div>
     <section class="input">
-        <input type="text" placeholder="Départ" /><input type="text" placeholder="Destinations" /><input type="text" placeholder="Date"
-        />
+        <input type="text" placeholder="Départ" /><input type="text" placeholder="Destinations" />
+        <input type="date" />
         <button type="button">Chercher un trajet</button>
     </section>
 
@@ -46,21 +50,241 @@
         <div class="txtroad">
             <h2>Vous prenez le volant<br> bientôt!</h2>
             <p>Partagez vos frais en prenant des <br> passagers.</p>
-            <button class="propo2" type="button">Proposer un trajet</button>
+            <a clas="propolink2" href="https://www.blablacar.fr/proposer/1" class="propo">Proposer un trajet</a>
         </div>
     </div>
 
     <div class="trajet">
         <h2>Des milliers de départs chaque jour. Et vous, où allez-vous ?</h2>
+
+        <div class="box1">
+            <p>Bordeaux</p>
+            <p>Toulouse</p>
+        </div>
+        <div class="tarif1">
+            à partie de 13€
+        </div>
+        <div class="box2">
+            <p>Nantes</p>
+            <p>Rennes</p>
+        </div>
+        <div class="tarif2">
+            à partie de 6€
+        </div>
+        <div class="box3">
+            <p>Paris</p>
+            <p>Lyon</p>
+        </div>
+        <div class="tarif3">
+            à partie de 24€
+        </div>
     </div>
-    
-    
-    
 
-
-<div class="avantages">
+    <div class="avantages">
         <h2>Ce qui va vous plaire</h2>
+        <ul>
+            <li>
+                <div class="icone">
+                    <img src="images/bla1.png" alt="BlaBlaCar">
+                </div>
+                <div>
+                    <h3 class="icontitre"> Partez avec qui vous voulez</h3>
+                    <p>Consultez avis et profils pour choisir vos covoitureurs.</p>
+                </div>
+            </li>
+            <li>
+                <div class="icone2">
+                    <img src="images/bla2.png" alt="BlaBlaCar">
+                </div>
+                <div>
+                    <h3 class="icontitre2"> Covoiturez en toute confiance</h3>
+                    <p>En faisant vérifier une pièce d'identité, les covoitureurs peuvent renforcer les liens de confiance au sein de notre communauté.</p>
+                </div>
+            </li>
+            <li>
+                <div class="icone3">
+                    <img src="images/bla3.png" alt="BlaBlaCar">
+                </div>
+                <div>
+                    <h3 class="icontitre3"> Voyagez assuré</h3>
+                    <p>Arrivée à destination garantie en cas d'incident. C'est offert.</p>
+                </div>
+            </li>
+    </div>
+    <div class="easy">
+        <h2>BlaBlaCar, c'est facile</h2>
+        <a class="sav+" href="https://www.blablacar.fr/comment-ca-marche">En savoir plus</a>
+        <ol>
+            <li>
+                <h3>Envie de bouger?</h3>
+                <p> Publiez ou recherchez votre trajet.</p>
+            </li>
+            <li>
+                <h3>Choisissez votre trajet</h3>
+                <p>Les passagers réservent en ligne les<br> places proposées.</p>
+            </li>
+            <li>
+                <h3>C'est parti !</h3>
+                <p> Voyagez ensemble puis laissez un avis<br> aux autres covoitureurs.
+                    <p>
+            </li>
+        </ol>
+    </div>
+    <div class="frise">
+        <h2>Le covoiturage selon BlaBlaCar</h2>
+        <div>
+            <a class="blalink" href="https://www.blablacar.fr/blablalife/">BlaBlaLife</a>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="/blablalife/blablafamily/bons-plans/remise-controle-technique">
+                        <img src="images/pict1.png">
+                        <h3 class="">20% de remise sur le contrôle technique</h3>
+                        <p class="">
+                            Profitez de cette remise exclusive sur le contrôle technique, en parte...
+                            <span class="">En savoir plus</span>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.blablacar.fr/blablalife/blablafamily/evenements/blablalines-app-covoiturages-quotidiens">
+                        <img src="images/pict2.png">
+                        <h3 class="">BlaBlaLines, l’appli des covoiturages quotidiens by BlaBlaCar</h3>
+                        <p class=""> BlaBlaCar lance une nouvelle appli pour les covoiturages quotidiens du...</p>
+
+                        <span class="">En savoir plus</span>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.blablacar.fr/blablalife/blablafamily/bons-plans/offre-voitures-location-longue-duree">
+                        <img src="images/pict3.png">
+                        <h3 class="">BlaBlaLines, l’appli des covoiturages quotidiens by BlaBlaCar</h3>
+                        <p class=""> BlaBlaCar lance une nouvelle appli pour les covoiturages quotidiens du...</p>
+
+                        <span class="">En savoir plus</span>
+                        </p>
+                    </a>
+                </li>
+            </ul>
 
 
 
-</html>
+
+            <footer>
+
+                <div>
+
+                    <section>
+                        <nav>
+                            <ul>
+                                <li class="footercolumn">
+                                    <h2>Infos pratiques</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.blablacar.fr/comment-ca-marche">Comment ça marche</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.blablacar.fr/confiance-fiabilite">Confiance et sérénité</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.blablacar.fr/niveau-experience">Niveaux d'expérience</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.blablacar.fr/les-avis">Les avis</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.blablacar.fr/ladies-only-fr">Entre femmes</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.blablacar.fr/charte-de-bonne-conduite">Charte de bonne conduite</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.blablacar.fr/assurance-covoiturage">Assurance et covoiturage</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.blablacar.fr/conseils-prevention">Conseils prévention</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.blablacar.fr/blablalife/blabla-a-bord/astuces-covoiturage/calcul-prix-trajet-covoiturage">Prix du covoiturage</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.blablacar.fr/faq">Foire aux questions</a>
+                                        </li>
+                                    </ul>
+                                    <li class="footercolumn">
+                                        <h2>À propos</h2>
+
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.blablacar.fr/a-propos"> Qui sommes-nous ?</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.blablacar.fr/blablalife/">BlaBlaLife</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.blablacar.fr/presse">Presse</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.blablacar.fr/a-propos/espace-partenaires">Espace partenaires</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="https://www.blablacar.fr/dreamjobs">Nous recrutons</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.blablacar.fr/contact">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="footercolumn">
+                                        <h2>Mentions légales</h2>
+                                        <ul>
+                                            <li class=>
+                                                <a href="https://www.blablacar.fr/a-propos/conditions-generales">Conditions générales</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.blablacar.fr/a-propos/politique-confidentialite">Politique de Confidentialité</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.blablacar.fr/a-propos/utilisation-des-cookies">Utilisation des cookies</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                            </ul>
+                        </nav>
+                    </section>
+                    <div>
+                        <section>
+                            <a href="https://play.google.com/store/apps/details?id=com.comuto&amp;hl=fr">
+                                <img src="https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/buttons/google_play/button_google_play_fr_FR.svg" alt="Disponible sur Google Play" width="143" height="48">
+                            </a>
+
+                            <a href="https://itunes.apple.com/fr/app/blablacar-covoiturage/id341329033?mt=8">
+                                <img src="https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/buttons/app_store/button_app_store_fr_FR.svg" alt="Télécharger dans l'App Store" width="143" height="48">
+                            </a>
+                        </section>
+                        <section class="footersocial">
+                            <ul class="usocial">
+                                <li><a href="https://fr-fr.facebook.com/blablacar.fr" class="facebook"><span class="u-visuallyHidden">Facebook</span></a></li>
+                                <li><a href="https://twitter.com/BlaBlaCar_FR" class="twitter"><span class="u-visuallyHidden">Twitter</span></a></li>
+                                <li><a href="https://instagram.com/blablacarfr" class="instagram"><span class="u-visuallyHidden">Instagram</span></a></li>
+                                <li><a href="https://www.youtube.com/c/BlaBlaCarFR" class="youtube"><span class="u-visuallyHidden">Youtube</span></a></li>
+
+                        </section>
+
+                        </section>
+
+                    </div>
+
+                    <div class="pfooter">
+
+                        <p>BlaBlaCar est un service de covoiturage qui met en relation des conducteurs et des passagers qui veulent faire un trajet longue distance. En partageant une voiture, les frais diminuent et le voyage est moins cher.
+                            <br>Faites confiance au covoiturage pour votre prochain trajet et voyagez avec d'autres personnes.</p>
+                    </div>
+
+            </footer>
+
+
+            </html

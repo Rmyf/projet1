@@ -1,164 +1,231 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.imghead{    
-    display: flex;
-    width: 126px;
-    height: 21px;
- 
-}
-.homeblockimg{
-    width: 100%;
-    position:relative;
-    padding-top: -20px;
-    
-    
-    
-    
-
-
-}
-
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0;
-    padding-left: 10px;
-}
-
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0; 
-    padding-bottom: 0;
-    font-size:36px;
-    padding-top: 20px;
-    margin-left: 10px;
-}
-
-h2{
-    margin-left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#menuhead li{
-    display: inline;
-    color: #0086BF;
-    font-weight: bold;
-    padding-right: 20px;
+    body {
+        margin: 0;
+        padding: 0;
     }
-
-.menuhigh {
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.menuhigh2{
-    display:flex;
-    justify-content: flex-end;
-}
-
-.menuhigh img{
     
-    align-self: flex-start;
-    margin-bottom: -30px;
-    padding-left: 32px;
-    padding-top: 20px;
+    .imghead {
+        display: flex;
+        width: 126px;
+        height: 21px;
+    }
     
-}
-
-.menuhead {
-    display: flex;
-    list-style: none;
-}
-.homeblock{
-    display: flex;
-    padding-top: 10px;
-   
-}
-.imgblock{
-    width: 100%;
+    .homeblockimg {
+        width: 100%;
+        position: relative;
+        padding-top: -20px;
+    }
     
-}
-
-button{
-
-    box-sizing: border-box;
-    padding: 8px 32px 8px 18px;
-    height: 38px;
-    font-size: 16px;
-    border-radius: 15px;
-    background-color: #0086BF;
-    color: white;
-}
-
-    button:hover{
-        background-color:  #005293;
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0;
+        padding-left: 10px;
+    }
+    
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding-bottom: 0;
+        font-size: 36px;
+        padding-top: 20px;
+        margin-left: 10px;
+        color: #413D35;
+    }
+    
+    h2 {
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #menuhead li {
+        display: inline;
+        color: #0086BF;
+        font-weight: bold;
+        padding-right: 30px;
+    }
+    
+    .menuhigh {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .menuhigh2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .menuhigh img {
+        align-self: flex-start;
+        margin-bottom: -30px;
+        padding-left: 32px;
+        padding-top: 20px;
+    }
+    
+    .menuhead {
+        display: flex;
+        list-style: none;
+    }
+    
+    .homeblock {
+        display: flex;
+        padding-top: 10px;
+    }
+    
+    button {
+        height: 44px;
+        font-size: 16px;
+        border-radius: 18px;
+        background-color: #0086BF;
+        color: white;
+        width: 238px;
+        border: none;
+    }
+    
+    button:hover {
+        background-color: #005293;
         cursor: pointer;
     }
-
-
-.homeblock2 {
-    background-color: #f2f2f2 ;
-    display: flex;
-    justify-content: center;
-
-}
-.homeblock2 img{
-    display: block;
     
-    block-size: 360px;
-    width: 544px;
-    height: 340px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: -150px;
-    border-radius: 4px;
-
-}
-
-.txtroad{
-    font-family:Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    padding-left: 52px;
-}
-
-.input{
-    height: 44px;
-    line-height: 10px;
-    margin-right: 8px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-input {
-    margin-right: 1em;
-    padding-right: 1em;
-}
-
-.propo2{
-    height: 40px;
-
-}
-.car{
-    height: 78px;
-}
-
-.trajet{
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: #F9F9F9;
-    display:flex;
-    justify-content:center;
-    margin-left: -320px;
-
-}
-.avantages{
-    background-color: #F9F9F9
-}
-
-
+    .homeblock2 {
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .homeblock2 img {
+        display: block;
+        block-size: 360px;
+        width: 544px;
+        height: 340px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: -150px;
+        border-radius: 4px;
+    }
+    
+    .txtroad {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        padding-left: 52px;
+    }
+    
+    .input {
+        height: 44px;
+        line-height: 10px;
+        margin-right: 8px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    input {
+        margin-right: 1em;
+        padding-right: 1em;
+        width: 236px;
+    }
+    
+    .propolink {
+        height: 18px;
+        padding: 8px 32px 8px 18px;
+        font-size: 16px;
+        width: 150px;
+        border-radius: 13px;
+        background-color: #0086BF;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    a:hover {
+        background-color: #005293;
+        cursor: pointer;
+    }
+    
+    .propo {
+        height: 28px;
+        padding: 8px 32px 8px 18px;
+        font-size: 16px;
+        width: 150px;
+        border-radius: 13px;
+        background-color: #0086BF;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .car {
+        height: 78px;
+        width: 140px;
+    }
+    
+    .trajet {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #F9F9F9;
+        display: flex;
+        justify-content: center;
+        margin-left: -320px;
+    }
+    
+    .box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 500px;
+        padding: 16px;
+        border: 1px solid #f2f2f2;
+        background-color: white;
+        color: #727272;
+        border-radius: 4px;
+    }
+    
+    .box1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .avantages {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+    }
+    
+    .easy {
+        background-color: #F9F9F9;
+    }
+    
+    .pfooter {
+        background-color: #ddd;
+        color: #727272;
+        display: block;
+        text-align: left;
+        font-size: 13px;
+        line-height: 1.2;
+        margin-top: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .footercolumn {
+        width: 219px;
+        margin-right: 32px;
+        text-align: left;
+        list-style: none;
+    }
+    
+    footer {
+        padding: 48px 0 0;
+        background-color: #f2f2f2;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #0086BF;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
