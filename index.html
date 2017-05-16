@@ -7,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Voyagez moins cher en covoiturage</title>
     <link rel="icon" type="image/png" href="images/index.png" sizes="16x16">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link type="text/css" href="csshake.css">
+
+
 
 </head>
 
@@ -23,7 +25,7 @@
                 <section class="menuhigh2">
                     <a class="propolink" href="https://www.blablacar.fr/proposer/1">Proposer un trajet</a>
                     <ul id="menuhead">
-                        <li>Inscription</li>
+                        <li><a class="inscriptionlink" href="https://www.blablacar.fr/inscription" class="propo">Inscription</a></li>
                         <li>Connexion</li>
                     </ul>
                 </section>
@@ -50,14 +52,14 @@
         <div class="txtroad">
             <h2>Vous prenez le volant<br> bientôt!</h2>
             <p>Partagez vos frais en prenant des <br> passagers.</p>
-            <a clas="propolink2" href="https://www.blablacar.fr/proposer/1" class="propo">Proposer un trajet</a>
+            <a class="propo" href="https://www.blablacar.fr/proposer/1">Proposer un trajet</a>
         </div>
     </div>
 
     <div class="trajet">
         <h2>Des milliers de départs chaque jour. Et vous, où allez-vous ?</h2>
 
-        <div class="box1">
+        <div class="box">
             <p>Bordeaux</p>
             <p>Toulouse</p>
         </div>
@@ -82,7 +84,7 @@
 
     <div class="avantages">
         <h2>Ce qui va vous plaire</h2>
-        <ul>
+        <ul id="icone">
             <li>
                 <div class="icone">
                     <img src="images/bla1.png" alt="BlaBlaCar">
@@ -110,11 +112,12 @@
                     <p>Arrivée à destination garantie en cas d'incident. C'est offert.</p>
                 </div>
             </li>
+        </ul>
     </div>
     <div class="easy">
         <h2>BlaBlaCar, c'est facile</h2>
         <a class="sav+" href="https://www.blablacar.fr/comment-ca-marche">En savoir plus</a>
-        <ol>
+        <ol class="listfacile">
             <li>
                 <h3>Envie de bouger?</h3>
                 <p> Publiez ou recherchez votre trajet.</p>
@@ -141,10 +144,9 @@
                     <a href="/blablalife/blablafamily/bons-plans/remise-controle-technique">
                         <img src="images/pict1.png">
                         <h3 class="">20% de remise sur le contrôle technique</h3>
-                        <p class="">
-                            Profitez de cette remise exclusive sur le contrôle technique, en parte...
-                            <span class="">En savoir plus</span>
-                        </p>
+                        <p class="">Profitez de cette remise exclusive sur le contrôle technique, en parte...</p>
+                        <span class="">En savoir plus</span>
+
                     </a>
                 </li>
                 <li>
@@ -154,7 +156,7 @@
                         <p class=""> BlaBlaCar lance une nouvelle appli pour les covoiturages quotidiens du...</p>
 
                         <span class="">En savoir plus</span>
-                        </p>
+
                     </a>
                 </li>
                 <li>
@@ -164,119 +166,115 @@
                         <p class=""> BlaBlaCar lance une nouvelle appli pour les covoiturages quotidiens du...</p>
 
                         <span class="">En savoir plus</span>
-                        </p>
+
                     </a>
                 </li>
             </ul>
-
-
-
-
             <footer>
-
                 <div>
-
                     <section>
-                        <nav>
-                            <ul>
-                                <li class="footercolumn">
-                                    <h2>Infos pratiques</h2>
-                                    <ul>
-                                        <li>
-                                            <a href="https://www.blablacar.fr/comment-ca-marche">Comment ça marche</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.blablacar.fr/confiance-fiabilite">Confiance et sérénité</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.blablacar.fr/niveau-experience">Niveaux d'expérience</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.blablacar.fr/les-avis">Les avis</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.blablacar.fr/ladies-only-fr">Entre femmes</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.blablacar.fr/charte-de-bonne-conduite">Charte de bonne conduite</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.blablacar.fr/assurance-covoiturage">Assurance et covoiturage</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.blablacar.fr/conseils-prevention">Conseils prévention</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.blablacar.fr/blablalife/blabla-a-bord/astuces-covoiturage/calcul-prix-trajet-covoiturage">Prix du covoiturage</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.blablacar.fr/faq">Foire aux questions</a>
-                                        </li>
+                        <nav class="navbottom">
+
+                            <div class="footercolumn">
+                                <h2>Infos pratiques</h2>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/comment-ca-marche">Comment ça marche</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/confiance-fiabilite">Confiance et sérénité</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/niveau-experience">Niveaux d'expérience</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/les-avis">Les avis</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/ladies-only-fr">Entre femmes</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/charte-de-bonne-conduite">Charte de bonne conduite</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/assurance-covoiturage">Assurance et covoiturage</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/conseils-prevention">Conseils prévention</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/blablalife/blabla-a-bord/astuces-covoiturage/calcul-prix-trajet-covoiturage">Prix du covoiturage</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/faq">Foire aux questions</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footercolumn2">
+                                <h2>À propos</h2>
+
+                                <ul>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/a-propos"> Qui sommes-nous ?</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/blablalife/">BlaBlaLife</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/presse">Presse</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/a-propos/espace-partenaires">Espace partenaires</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.blablacar.fr/dreamjobs">Nous recrutons</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footercolumn3">
+                                <h2>Mentions légales</h2>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/a-propos/conditions-generales">Conditions générales</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/a-propos/politique-confidentialite">Politique de Confidentialité</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.blablacar.fr/a-propos/utilisation-des-cookies">Utilisation des cookies</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div>
+                                <section id="social">
+                                    <a href="https://play.google.com/store/apps/details?id=com.comuto&amp;hl=fr">
+                                        <img src="https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/buttons/google_play/button_google_play_fr_FR.svg" alt="Disponible sur Google Play" width="143" height="48">
+                                    </a>
+
+                                    <a href="https://itunes.apple.com/fr/app/blablacar-covoiturage/id341329033?mt=8">
+                                        <img src="https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/buttons/app_store/button_app_store_fr_FR.svg" alt="Télécharger dans l'App Store" width="143" height="48">
+                                    </a>
+                                </section>
+                                <section id="footersocial">
+                                    <ul class="usocial">
+                                        <li><a href="https://fr-fr.facebook.com/blablacar.fr" class="facebook"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://twitter.com/BlaBlaCar_FR" class="twitter"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://instagram.com/blablacarfr" class="instagram"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.youtube.com/c/BlaBlaCarFR" class="youtube"><i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></a></li>
                                     </ul>
-                                    <li class="footercolumn">
-                                        <h2>À propos</h2>
 
-                                        <ul>
-                                            <li>
-                                                <a href="https://www.blablacar.fr/a-propos"> Qui sommes-nous ?</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blablacar.fr/blablalife/">BlaBlaLife</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blablacar.fr/presse">Presse</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blablacar.fr/a-propos/espace-partenaires">Espace partenaires</a>
-                                            </li>
+                                </section>
 
-                                            <li>
-                                                <a href="https://www.blablacar.fr/dreamjobs">Nous recrutons</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blablacar.fr/contact">Contact</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="footercolumn">
-                                        <h2>Mentions légales</h2>
-                                        <ul>
-                                            <li class=>
-                                                <a href="https://www.blablacar.fr/a-propos/conditions-generales">Conditions générales</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blablacar.fr/a-propos/politique-confidentialite">Politique de Confidentialité</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.blablacar.fr/a-propos/utilisation-des-cookies">Utilisation des cookies</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                            </ul>
+
+                            </div>
+
                         </nav>
                     </section>
-                    <div>
-                        <section>
-                            <a href="https://play.google.com/store/apps/details?id=com.comuto&amp;hl=fr">
-                                <img src="https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/buttons/google_play/button_google_play_fr_FR.svg" alt="Disponible sur Google Play" width="143" height="48">
-                            </a>
-
-                            <a href="https://itunes.apple.com/fr/app/blablacar-covoiturage/id341329033?mt=8">
-                                <img src="https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/buttons/app_store/button_app_store_fr_FR.svg" alt="Télécharger dans l'App Store" width="143" height="48">
-                            </a>
-                        </section>
-                        <section class="footersocial">
-                            <ul class="usocial">
-                                <li><a href="https://fr-fr.facebook.com/blablacar.fr" class="facebook"><span class="u-visuallyHidden">Facebook</span></a></li>
-                                <li><a href="https://twitter.com/BlaBlaCar_FR" class="twitter"><span class="u-visuallyHidden">Twitter</span></a></li>
-                                <li><a href="https://instagram.com/blablacarfr" class="instagram"><span class="u-visuallyHidden">Instagram</span></a></li>
-                                <li><a href="https://www.youtube.com/c/BlaBlaCarFR" class="youtube"><span class="u-visuallyHidden">Youtube</span></a></li>
-
-                        </section>
-
-                        </section>
-
-                    </div>
 
                     <div class="pfooter">
 
@@ -287,4 +285,4 @@
             </footer>
 
 
-            </html
+</html>
